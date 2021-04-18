@@ -31,6 +31,9 @@ Lab in which I designed a client program which accepts the URL of any file on th
 ## Lab 8
 Lab in which I use wireshark to study the DHCP and arp packets
 
+## Lab 9
+Lab in which i code a encoder and a decoder using the OpenSSL library which can encrypt and decrypt text files upto 1KB.
+
 ## Notes:
 Lab 4 code not working completely. Will correct that shortly. (Can be corrected easily by modifying Lab 6)
 
