@@ -9,7 +9,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-#define SA struct sockaddr
 
 int padding = RSA_PKCS1_PADDING;
 
@@ -77,7 +76,6 @@ int main(int argc, char const *argv[]) {
             printf("Decryption failed\n");
             return 1;
         }
-        // fprintf(f, "%s\n", decrypted_message);
         fwrite(buffer, sizeof(char), decrypted_len, f);
         // printf("Length of decrypted message: %d\n", decrypted_len);
         if(decrypted_len!=200){
