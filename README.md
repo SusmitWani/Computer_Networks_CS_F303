@@ -32,9 +32,12 @@ Lab in which I designed a client program which accepts the URL of any file on th
 Lab in which I use wireshark to study the DHCP and arp packets
 
 ## Lab 9
-Lab in which i code a encoder and a decoder using the OpenSSL library which can encrypt and decrypt text files upto 1KB.
+Lab in which I code a encoder and a decoder using the OpenSSL library which can encrypt and decrypt text files upto 1KB.
+
+## Lab Compre
+Lab in which I make a end to end encrypted chatting application. Two clients communicate by means of a server in my implementation. Can be made into an actual chatroom by changing a parameter.
 
 ## Notes:
-Lab 4 code not working completely. Will correct that shortly. (Can be corrected easily by modifying Lab 6)
+Lab 4 code not working completely. Will correct that shortly. (Can be corrected easily by modifying Lab Compre)
 
 Lab 7 code not able to download images. Last tested on Ubuntu 18.04 on a VM
