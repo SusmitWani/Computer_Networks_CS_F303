@@ -30,6 +30,7 @@ The list of files provided:
 
 Steps to run the code
 1. Generating the Public and Private Keys: 
+Note that the code will work with key of length 2048 only. Will need to modify array sizes if key size needs to be changed.
 	
 >>> openssl genrsa -out private.pem 2048
 >>> openssl rsa -in private.pem -outform PEM -pubout -out public.pem
@@ -42,7 +43,7 @@ This will generate the public and private keys which were copied into the text f
 Steps to compile and run the file are as follows
 
 >>> gcc -o encrypt encrypter.c -lcrypto -lssl
->>>./encrypt "-----BEGIN PUBLIC KEY-----     
+>>>./encrypt "-----BEGIN PUBLIC KEY----- Â Â Â Â 
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw/vQizScjBTI1LRVmmDr 
 9RLOLWhz0mZKFys+VD1aRLapCtAuj0kT6tUHe/lDzy85Woa4HxYnKuegVzcjFZTE 
 nTLO3dZ8lshYfGZQxB/6dEUoe03ydzJzTkyAUW36hT3Oal7PwPk0B2H3QHB/jOaq 
