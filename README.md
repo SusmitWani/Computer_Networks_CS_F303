@@ -14,7 +14,7 @@ This lab is application of the commands learnt in the first lab.
 This lab is about learning the basics of wireshark
 
 ## Lab 4
-This lab is a messaging application between a server and a client using named pipes.
+This lab is an alternating messaging application between a server and a client using named pipes.
 
 ## Lab 5
 In this lab, I implement a TCP based server and clients which are situated in separate directories and the client requests files from the server. The server checks if file is available and sends it to the client if it is.
