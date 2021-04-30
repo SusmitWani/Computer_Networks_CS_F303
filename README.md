@@ -14,7 +14,7 @@ This lab is application of the commands learnt in the first lab.
 This lab is about learning the basics of wireshark
 
 ## Lab 4
-This lab is a messaging application between two processes using named pipes.
+This lab is a messaging application between a server and a client using named pipes.
 
 ## Lab 5
 In this lab, I implement a TCP based server and clients which are situated in separate directories and the client requests files from the server. The server checks if file is available and sends it to the client if it is.
@@ -38,6 +38,4 @@ Lab in which I code a encoder and a decoder using the OpenSSL library which can 
 Lab in which I make a end to end encrypted chatting application. Two clients communicate by means of a server in my implementation. Can be made into an actual chatroom by changing a parameter.
 
 ## Notes:
-Lab 4 code not working completely. Will correct that shortly. (Can be corrected easily by modifying Lab Compre)
-
 Lab 7 code not able to download images. Last tested on Ubuntu 18.04 on a VM
