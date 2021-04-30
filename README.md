@@ -34,7 +34,7 @@ Lab in which I use wireshark to study the DHCP and arp packets
 ## Lab 9
 Lab in which I code a encoder and a decoder using the OpenSSL library which can encrypt and decrypt text files upto 1KB.
 
-## Lab Compre
+## Lab Comprehensive exam
 Lab in which I make a end to end encrypted chatting application. Two clients communicate by means of a server in my implementation. Can be made into an actual chatroom by changing a parameter.
 
 ## Notes:
